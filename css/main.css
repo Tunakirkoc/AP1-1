@@ -1,0 +1,22 @@
+
+body {
+	font-family : "Verdana";
+	font-size:1.1em;
+}
+
+.titre1Noir {
+	font-size:2em;
+	font-weight:bold;
+	font-stretch: expanded;
+	text-decoration: underline;
+	text-align: center;
+}
+
+.titre2Noir {
+	font-stretch: expanded;
+	text-decoration: underline;
+}
+
+.centre {
+	text-align: center;
+}
