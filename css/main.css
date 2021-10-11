@@ -1,22 +1,57 @@
+@font-face {
+    font-family: 'Minecraftia';
+    src: url('/fonts/Minecraftia-Regular.ttf');
+}
 
 body {
-	font-family : "Verdana";
-	font-size:1.1em;
+    font-family: "Roboto";
+    background-color: black;
+    font-size: 1.1em;
+    margin: 0%;
 }
 
-.titre1Noir {
-	font-size:2em;
-	font-weight:bold;
-	font-stretch: expanded;
-	text-decoration: underline;
-	text-align: center;
+.headertablebleu1 {
+    border: 0;
+    width: 100%;
+    padding: 0;
+    border-spacing: 0;
+    background-color: #027DFF;
+    border-radius: 25px
 }
 
-.titre2Noir {
-	font-stretch: expanded;
-	text-decoration: underline;
+.headertablepadding10 {
+    border: 0;
+    padding: 10;
+    border-spacing: 0;
+    width: 100%;
+    text-align: center;
 }
 
-.centre {
-	text-align: center;
+.headertitle1 {
+    font-size: 1.5em;
+    color: black;
+}
+
+.headertitle1gras {
+    font-size: 2em;
+    color: black;
+    font-weight: bold;
+}
+
+.headertd15 {
+    width: 15%;
+}
+
+
+
+.wave1{
+    background-image: url('/svg/wave-black-to-blue.svg');
+}
+
+.spacer {
+    aspect-ratio: 960/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
