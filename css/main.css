@@ -1,57 +1,163 @@
 @font-face {
-    font-family: 'Minecraftia';
-    src: url('/fonts/Minecraftia-Regular.ttf');
+  font-family: "Minecraftia";
+  src: url("/fonts/Minecraftia-Regular.ttf");
+}
+
+:root {
+  --color: #027dff;
 }
 
 body {
-    font-family: "Roboto";
-    background-color: black;
-    font-size: 1.1em;
-    margin: 0%;
+  font-family: "Roboto";
+  background-color: black;
+  font-size: 1.1em;
+  margin: 0%;
+}
+
+.width10 {
+  width: 10%;
+}
+
+.width15 {
+  width: 15%;
+}
+
+.width30 {
+  width: 30%;
+}
+
+.width40 {
+  width: 40%;
+}
+
+.width60 {
+  width: 60%;
+}
+.width70 {
+  width: 70%;
 }
 
 .headertablebleu1 {
-    border: 0;
-    width: 100%;
-    padding: 0;
-    border-spacing: 0;
-    background-color: #027DFF;
-    border-radius: 25px
+  border: 0;
+  width: 100%;
+  padding: 0;
+  border-spacing: 0;
+  background-color: var(--color);
+  border-radius: 25px;
+  border-top-width: 10px;
+  border-top-style: solid;
+  border-bottom-width: 10px;
+  border-bottom-style: solid;
+  border-left-width: 10px;
+  border-left-style: solid;
+  border-right-width: 10px;
+  border-right-style: solid;
 }
 
 .headertablepadding10 {
-    border: 0;
-    padding: 10;
-    border-spacing: 0;
-    width: 100%;
-    text-align: center;
+  border: 0;
+  padding: 10;
+  border-spacing: 0;
+  width: 100%;
+  text-align: center;
 }
 
 .headertitle1 {
-    font-size: 1.5em;
-    color: black;
+  font-size: 1.5em;
+  color: black;
 }
 
 .headertitle1gras {
-    font-size: 2em;
-    color: black;
-    font-weight: bold;
+  font-size: 2em;
+  color: black;
+  font-weight: bold;
 }
 
-.headertd15 {
-    width: 15%;
+.imgprofile {
+  width: 225px;
+  aspect-ratio: auto 225 / 210;
+  height: 210px;
 }
 
-
-
-.wave1{
-    background-image: url('/svg/wave-black-to-blue.svg');
+.wave1 {
+  background-image: url("/svg/wave-black-to-blue.svg");
 }
 
 .spacer {
-    aspect-ratio: 960/300;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  aspect-ratio: 960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.footer1table1 {
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  width: 100%;
+  -webkit-border-horizontal-spacing: 0px;
+  -webkit-border-vertical-spacing: 0px;
+  background-color: var(--color);
+}
+
+.footer1table2 {
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  -webkit-border-horizontal-spacing: 0px;
+  -webkit-border-vertical-spacing: 0px;
+  width: 90%;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}
+
+.footer1td1 {
+  width: 13%;
+  vertical-align: top;
+}
+
+.footer1font1 {
+  font-size: large;
+  color: rgb(0, 0, 0);
+}
+
+.footer2table1 {
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  width: 100%;
+  -webkit-border-horizontal-spacing: 0px;
+  -webkit-border-vertical-spacing: 0px;
+  background-color: rgb(0, 0, 0);
+}
+
+.footer2table2 {
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  -webkit-border-horizontal-spacing: 0px;
+  -webkit-border-vertical-spacing: 0px;
+  width: 90%;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}
+
+.footer2td1 {
+  width: 80%;
+  vertical-align: top;
+}
+
+.footer2font1 {
+  color: var(--color);
+  font-size: x-large;
+}
+
+.footer2font2 {
+  color: var(--color);
+  font-size: xx-large;
 }

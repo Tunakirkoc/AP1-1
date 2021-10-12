@@ -1,54 +1,57 @@
-.termstable1{
-    font-family: "Roboto";
-    border-top-width: 0px;
-    border-right-width: 0px;
-    border-bottom-width: 0px;
-    border-left-width: 0px;
-    width: 100%;
-    -webkit-border-horizontal-spacing: 0px;
-    -webkit-border-vertical-spacing: 0px;
-    background-color: rgb(0, 0, 0);
+.termstable1 {
+  font-family: "Roboto";
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  width: 100%;
+  -webkit-border-horizontal-spacing: 0px;
+  -webkit-border-vertical-spacing: 0px;
+  background-color: rgb(0, 0, 0);
 }
 
 .termstable2 {
-    font-family: "Roboto";
-    border-top-width: 0px;
-    border-right-width: 0px;
-    border-bottom-width: 0px;
-    border-left-width: 0px;
-    -webkit-border-horizontal-spacing: 0px;
-    -webkit-border-vertical-spacing: 0px;
-    width: 80%;
-    margin-inline-start: auto;
-    margin-inline-end: auto;
+  font-family: "Roboto";
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  -webkit-border-horizontal-spacing: 0px;
+  -webkit-border-vertical-spacing: 0px;
+  width: 80%;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
 }
 
-.termstd1{
-    font-family: "Roboto";
-    height: 100px;
-    text-align: -webkit-center;
-    vertical-align: middle;
+.termstd1 {
+  font-family: "Roboto";
+  height: 100px;
+  text-align: -webkit-center;
+  vertical-align: middle;
 }
-.termstitlebleu{
-    font-family: "Roboto";
-    font-size: xxx-large;
-    color: rgb(2, 125, 255);
+
+.termstitlebleu {
+  font-family: "Roboto";
+  font-size: xxx-large;
+  color: var(--color);
 }
-.termshr1{
-    font-family: "Roboto";
-    border-top-style: solid;
-    border-right-style: solid;
-    border-bottom-style: solid;
-    border-left-style: solid;
-    border-top-color: rgb(2, 125, 255);
-    border-right-color: rgb(2, 125, 255);
-    border-bottom-color: rgb(2, 125, 255);
-    border-left-color: rgb(2, 125, 255);
-    background-color: rgb(2, 125, 255);
-    width: 100px;
+
+.termshr1 {
+  font-family: "Roboto";
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: var(--color);
+  border-right-color: var(--color);
+  border-bottom-color: var(--color);
+  border-left-color: var(--color);
+  background-color: var(--color);
+  width: 100px;
 }
-.termstextblanc{
-    font-family: "Roboto";
-    font-size: large;
-    color: rgb(255, 255, 255);
+
+.termstextblanc {
+  font-family: "Roboto";
+  font-size: large;
+  color: rgb(255, 255, 255);
 }
