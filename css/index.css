@@ -145,7 +145,7 @@
   overflow: hidden;
   padding-top: 100%;
   border-style: groove;
-  border-color: #027dff;
+  border-color: var(--color);
 }
 
 .projetsiframe {

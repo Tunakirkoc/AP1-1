@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Minecraftia";
-  src: url("/fonts/Minecraftia-Regular.ttf");
+  src: url("fonts/Minecraftia-Regular.ttf");
 }
 
 :root {
@@ -80,7 +80,7 @@ body {
 }
 
 .wave1 {
-  background-image: url("/svg/wave-black-to-blue.svg");
+  background-image: url("svg/wave-black-to-blue.svg");
 }
 
 .spacer {
