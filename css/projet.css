@@ -1,0 +1,24 @@
+
+body {
+	font-family : "Verdana";
+	font-size:1.1em;
+    background-color: black;
+    color: white;
+}
+
+.titre1 {
+	font-size:2em;
+	font-weight:bold;
+	font-stretch: expanded;
+	text-decoration: underline;
+	text-align: center;
+}
+
+.titre2 {
+	font-stretch: expanded;
+	text-decoration: underline;
+}
+
+.centre {
+	text-align: center;
+}
